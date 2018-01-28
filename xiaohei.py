@@ -160,7 +160,7 @@ if __name__ == "__main__":
         sys.exit(0 if not failed_checks else 1)
 
     try:
-        app = Dingdang()
+        app = Xiaohei()
     except Exception:
         logger.error("Error occured!", exc_info=True)
         sys.exit(1)
