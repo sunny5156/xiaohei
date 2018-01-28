@@ -32,7 +32,7 @@ else:
     from client.mic import Mic
 
 
-class Xioahei(object):
+class Xiaohei(object):
     def __init__(self):
         self._logger = logging.getLogger(__name__)
 
