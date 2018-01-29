@@ -32,7 +32,7 @@ class Mic:
                             mode
         """
         self.profile = profile
-        self.robot_name = u'叮当'
+        self.robot_name = u'小黑'
         if 'robot_name_cn' in profile:
             self.robot_name = profile['robot_name_cn']
         self._logger = logging.getLogger(__name__)
@@ -348,7 +348,7 @@ class Mic:
             self.speaker.say(phrase, cache)
         else:
             self.speaker.say(phrase)
-        time.sleep(1)  # 避免叮当说话时误唤醒
+        time.sleep(1)  # 避免小黑说话时误唤醒
         self.stop_passive = False
 
     def play(self, src):
